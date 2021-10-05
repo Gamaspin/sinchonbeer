@@ -19,7 +19,8 @@ public interface ReviewDao {
     // 05. 게시글 전체 목록
     public List<ReviewVO> listAllReview() throws Exception;
     // 06. 게시글 좋아요
-    public int likeReview(Integer idx) throws Exception;
+    
+	/* public int likeReview(Integer idx) throws Exception; */
     
 	/*
 	 * // 06. 게시글 조회 증가 
