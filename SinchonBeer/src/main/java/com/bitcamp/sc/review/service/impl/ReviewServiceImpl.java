@@ -71,21 +71,7 @@ public class ReviewServiceImpl implements ReviewService {
     	return reviewDao.listAllReview();
 	}
 	
-	
-    // 06. 게시글 좋아요
-	@Override
-    public int likeReview(Integer idx) throws Exception {
-		
-		  int check = 0; 
-		  try { 
-			  check = reviewDao.likeReview(idx);
-		  
-		  } catch (Exception e) { 
-			  // TODO: handle exception 
-		  }
-		  return check;
-    }
-	
+
 
 /*	// 06. 게시글 조회수 증가
 	@Override
